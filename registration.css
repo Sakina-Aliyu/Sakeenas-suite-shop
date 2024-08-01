@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.form{
+    width: 90vw;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px -1px;
+    background-color: grey;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+}
+.header-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+}
+    .div1{
+        margin-bottom: 30px;
+    }
+    .div2{
+        margin-bottom: 30px;
+    }
+    .div3{
+        margin-bottom: 30px;
+    }
+    .div4{
+        margin-bottom: 30px;
+    }
+    .div5{
+        margin-bottom: 30px;
+    }
+    .div6{
+        margin-bottom: 30px;
+    }
+    .div7{
+        margin-bottom: 30px;
+    }
+    .div8{
+        margin-bottom: 30px;
+    }
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: grey; display: flex;
+}
+.footer-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.bye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+}  

@@ -1,0 +1,18 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    width: 100%;
+    padding: 5% 5%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 20%;
+    height: 30%;
+    background-color: black;
+    color: whitesmoke;
+}

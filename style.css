@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: palevioletred; */
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.nav{
+width: 30%;
+height: 50px;
+/* background-color: blue; */
+}
+.nav-links{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* BANNER CSS */
+.banner{
+width: 100%;
+height: 700px;
+background-color: grey;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 30px;
+display: flex;
+align-items: center;
+}
+
+.details{
+    width: 60%;
+    padding: 20px;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.t1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+
+.t2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.t3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.reg{
+padding: 16px 40px;
+font-size: 20px;
+margin-top: 35px;
+background-color: black;
+color: aliceblue;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: .2s;
+}
+.reg:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.person{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    border-radius: 30px;
+    /* align-self: flex-end; */
+}
+
+.person-img{
+border-radius: 30px;
+}
+
+
+/* SERVICES CSS */
+
+.services{
+    width: 100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+}
+
+.section-title{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.section-serv1{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color:whitesmoke; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 4%;
+}
+
+
+.service{
+    width: 22%;
+    /* height: 400px; */
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    row-gap: 15px;
+    box-shadow: 0 0 2px grey;
+    border-radius: 10px;
+}
+
+.icon{
+    padding: 50px;
+    font-size: 70px;
+    align-self: center;
+}
+
+.service-text{
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+.service-btn{
+    padding: 12px 25px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* ACHIEVEMENTS CSS */
+
+.achievements{
+    padding: 30px 10%;
+    background-color: grey;
+}
+
+.achievement{
+    width: 18%;
+    padding: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.number{
+    font-size: 50px;
+    font-family: Arial,;
+    font-weight: bold;
+}
+
+.tag{
+    font-size: 20px;
+}
+
+
+
+
+/* quote section css */
+
+.quote{
+    width: 100%;
+    height: 445px;
+    background-position: center;
+    /* padding: 0% 10px; */
+    /* background-size: cover; */
+    /* background-color: red; */
+    background-image: url('https://prioritypixels.co.uk/wp-content/uploads/2023/09/Are-Google-Shopping-Ads-worth-it-665x445.jpg.webp');
+}
+
+.overlay{
+    width: 100%;
+    height: 445px;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.quote-area{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.inp-email{
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+    text-indent: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+
+
+/* clients css */
+
+
+.clients{
+    width: 100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+}
+.section-serv1{
+    /* background-color: whitesmoke; */
+
+}
+
+.clients-img{
+    width: 28%;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.client-section{
+ background-color: whitesmoke;
+column-gap: 4%;
+flex: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.client-img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+
+}
+
+
+/* footer css */
+
+
+.footer{
+    width: 100%;
+    padding: 30px 10%;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI';
+}
+
+
+
+.footer-1{
+    width: 40%;
+    padding: 30px 50px;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    grid-row: 10px;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+
+}
+
+.map{
+    width: 44%;
+    padding: 0%;
+}
